@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     width: 150px;
-    background-color:
+    background-color: inherit;
   }
 
 .left-panel ul li a {
@@ -40,7 +40,7 @@ body {
 }
 .right-panel ul li a {
   display: block;
-  font-size: 20px;
+  font-size: 40px;
   font-style: bold;
   color: #000;
   text-decoration: none;
