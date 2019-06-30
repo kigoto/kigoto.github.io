@@ -81,11 +81,13 @@ font-size: 25px;
     color: white;
   }
 
-. right-panel p{
-  font-weight: bolder;
+footer {
+
+    background: rgba(255,255, 255, 0.6);
 }
 
 
-  .homebackground .right-panel {
+
+  .homebackground .right-panel  .footer{
     color: rgb(500, 150, 100);
       }
