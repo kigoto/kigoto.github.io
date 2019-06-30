@@ -86,8 +86,10 @@ footer {
     background: rgba(255,255, 255, 0.6);
 }
 
+ .right-panel{
+  font-size: larger;
+}
 
-
-  .homebackground .right-panel  .footer{
+  .homebackground .right-panel {
     color: rgb(500, 150, 100);
       }
