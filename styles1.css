@@ -1,0 +1,43 @@
+img{
+width:300px}
+
+p{
+  font-size: 30px
+  font-color: white;
+}
+span{
+  font-size: 42px}
+a {
+  color: green;
+}
+body{
+  /* background-image: url("top.jpg") blue; */
+  text-align: left;
+  text-decoration-color: blue;
+}
+
+h1{
+background-color: inherit;
+  /* text-decoration: underline; */
+  text-align: left;
+  font-size: 50px;
+  display: block;
+
+}
+img{
+  width: 100%;
+}
+
+footer{
+  height: 100px;
+  background-color: green;
+}
+.navigation-container ul li{
+  display: inline;
+  /* text-decoration-color: brown; */
+}
+
+p{background-color: yellow;
+  font-size: 30px
+}
+span{font-size: 42px}
