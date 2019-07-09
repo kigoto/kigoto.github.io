@@ -75,7 +75,8 @@ font-size: 25px;
 
 /* Change the link color on hover */
 .left-panel li a:hover {
-  background-color: black;
+  /* background-color: black; */
+  background-color:purple;
   color: white;
 }
 
@@ -106,6 +107,7 @@ footer {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  /* background-color: blue; */
 }
 
 .footer-link li {
@@ -127,4 +129,10 @@ footer {
 
 .right-panel p, h2 {
   color: white;
+}
+
+.container resume{
+
+  opacity: 1;
+  visibility:hidden;
 }
