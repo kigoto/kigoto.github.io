@@ -13,11 +13,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* transition: 2s; */
+  transition-duration: 4s;
+  transition-timing-function:ease-in-out;
+  transition-delay: 2s;
+
 }
 
 header {
   padding: 0.5em;
   margin-bottom: 2em;
+  transition-duration: 4s;
+  transition-timing-function: ease-in;
+  transition-delay: 2s;
+  transition-timing-function: ease-in-out;
 }
 
 header h1 {
