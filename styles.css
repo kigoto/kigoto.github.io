@@ -11,21 +11,28 @@ body {
   background-color: white;
   background-image: url("top.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 180%;
   position: relative;
-  /* transition: 2s; */
-  transition-duration: 3s;
-  transition-timing-function:ease-in-out;
-  transition-delay: 2s;
+  animation-name: zoom-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
 
+@keyframes zoom-in {
+  0% {
+    background-size: 180%;
+  }
+
+  100% {
+    background-size: 200%;
+  }
 }
 
 header {
   padding: 0.5em;
   margin-bottom: 2em;
-  transition-duration: 3s;
-  transition-delay: 2s;
-  transition-timing-function: ease-in-out;
 }
 
 header h1 {
@@ -80,6 +87,12 @@ header h1 {
 }
 
 /* Change the link color on hover */
+.left-panel li a {
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
 .left-panel li a:hover {
   /* background-color: black; */
   background-color: purple;
