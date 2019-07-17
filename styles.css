@@ -14,7 +14,7 @@ body {
   background-size: cover;
   position: relative;
   /* transition: 2s; */
-  transition-duration: 4s;
+  transition-duration: 3s;
   transition-timing-function:ease-in-out;
   transition-delay: 2s;
 
@@ -90,6 +90,7 @@ header h1 {
 .right-panel li a:hover {
   background-color: blue;
   color: white;
+  
 }
 
 .header {
