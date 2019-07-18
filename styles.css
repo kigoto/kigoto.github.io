@@ -8,10 +8,11 @@ body, html {
 }
 
 body {
-  background-color: white;
+  background-color: black;
   background-image: url("top.jpg");
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size: calc(100vh + 800px);
+  background-position: top left;
   position: relative;
   animation-name: zoom-in;
   animation-duration: 2s;
@@ -22,11 +23,11 @@ body {
 
 @keyframes zoom-in {
   0% {
-    background-size: 100%;
+    background-size: calc(100vh + 800px);
   }
 
   100% {
-    background-size: 120%;
+    background-size: calc(100vh + 1000px);
   }
 }
 
@@ -80,6 +81,7 @@ header h1 {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  padding-bottom: 2rem
 }
 
 .left-panel {
