@@ -14,7 +14,7 @@ alert( "Hello "+ name + "!" + ' Welcome to My First WebPage'),
 // var age = 19
 //confirm("Hope you will like it?")
 // if(confirm){
-  // alert("Come in!")
+  alert("Come in!")
 // }
 // function showAlert(){
 //   alert("Welcome );
