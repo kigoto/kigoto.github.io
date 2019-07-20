@@ -10,7 +10,7 @@
 // confirm("Confirm if you are 18")
 // prompt("Hope you like my WebPage")
 // var name = "Everyone";
-// alert( "Hello "+ name + "!" + ' Welcome to My First WebPage',
+alert( "Hello "+ name + "!" + ' Welcome to My First WebPage'),
 // var age = 19
 //confirm("Hope you will like it?")
 // if(confirm){
